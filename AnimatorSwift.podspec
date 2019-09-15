@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Animator'
+  s.name             = 'AnimatorSwift'
   s.version          = '1.0'
   s.summary          = 'A short description of Example.'
 

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		723A2E3822EDD27D008B761E /* Animator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723A2E2E22EDD27D008B761E /* Animator.framework */; };
+		723A2E3822EDD27D008B761E /* AnimatorSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723A2E2E22EDD27D008B761E /* AnimatorSwift.framework */; };
 		723A2E3D22EDD27D008B761E /* AnimatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A2E3C22EDD27D008B761E /* AnimatorTests.swift */; };
 		723A2E3F22EDD27D008B761E /* Animator.h in Headers */ = {isa = PBXBuildFile; fileRef = 723A2E3122EDD27D008B761E /* Animator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		723A2E4922EDDA88008B761E /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A2E4822EDDA88008B761E /* Animator.swift */; };
@@ -27,10 +27,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		723A2E2E22EDD27D008B761E /* Animator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Animator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		723A2E2E22EDD27D008B761E /* AnimatorSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnimatorSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		723A2E3122EDD27D008B761E /* Animator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animator.h; sourceTree = "<group>"; };
 		723A2E3222EDD27D008B761E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		723A2E3722EDD27D008B761E /* AnimatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		723A2E3722EDD27D008B761E /* AnimatorSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatorSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		723A2E3C22EDD27D008B761E /* AnimatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatorTests.swift; sourceTree = "<group>"; };
 		723A2E3E22EDD27D008B761E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		723A2E4822EDDA88008B761E /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				723A2E3822EDD27D008B761E /* Animator.framework in Frameworks */,
+				723A2E3822EDD27D008B761E /* AnimatorSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,8 +70,8 @@
 		723A2E2F22EDD27D008B761E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				723A2E2E22EDD27D008B761E /* Animator.framework */,
-				723A2E3722EDD27D008B761E /* AnimatorTests.xctest */,
+				723A2E2E22EDD27D008B761E /* AnimatorSwift.framework */,
+				723A2E3722EDD27D008B761E /* AnimatorSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,9 +112,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		723A2E2D22EDD27D008B761E /* Animator */ = {
+		723A2E2D22EDD27D008B761E /* AnimatorSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 723A2E4222EDD27D008B761E /* Build configuration list for PBXNativeTarget "Animator" */;
+			buildConfigurationList = 723A2E4222EDD27D008B761E /* Build configuration list for PBXNativeTarget "AnimatorSwift" */;
 			buildPhases = (
 				723A2E2922EDD27D008B761E /* Headers */,
 				723A2E2A22EDD27D008B761E /* Sources */,
@@ -125,14 +125,14 @@
 			);
 			dependencies = (
 			);
-			name = Animator;
+			name = AnimatorSwift;
 			productName = Animator;
-			productReference = 723A2E2E22EDD27D008B761E /* Animator.framework */;
+			productReference = 723A2E2E22EDD27D008B761E /* AnimatorSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		723A2E3622EDD27D008B761E /* AnimatorTests */ = {
+		723A2E3622EDD27D008B761E /* AnimatorSwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 723A2E4522EDD27D008B761E /* Build configuration list for PBXNativeTarget "AnimatorTests" */;
+			buildConfigurationList = 723A2E4522EDD27D008B761E /* Build configuration list for PBXNativeTarget "AnimatorSwiftTests" */;
 			buildPhases = (
 				723A2E3322EDD27D008B761E /* Sources */,
 				723A2E3422EDD27D008B761E /* Frameworks */,
@@ -143,9 +143,9 @@
 			dependencies = (
 				723A2E3A22EDD27D008B761E /* PBXTargetDependency */,
 			);
-			name = AnimatorTests;
+			name = AnimatorSwiftTests;
 			productName = AnimatorTests;
-			productReference = 723A2E3722EDD27D008B761E /* AnimatorTests.xctest */;
+			productReference = 723A2E3722EDD27D008B761E /* AnimatorSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 723A2E2822EDD27D008B761E /* Build configuration list for PBXProject "Animator" */;
+			buildConfigurationList = 723A2E2822EDD27D008B761E /* Build configuration list for PBXProject "AnimatorSwift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -180,8 +180,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				723A2E2D22EDD27D008B761E /* Animator */,
-				723A2E3622EDD27D008B761E /* AnimatorTests */,
+				723A2E2D22EDD27D008B761E /* AnimatorSwift */,
+				723A2E3622EDD27D008B761E /* AnimatorSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,7 +228,7 @@
 /* Begin PBXTargetDependency section */
 		723A2E3A22EDD27D008B761E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 723A2E2D22EDD27D008B761E /* Animator */;
+			target = 723A2E2D22EDD27D008B761E /* AnimatorSwift */;
 			targetProxy = 723A2E3922EDD27D008B761E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -454,7 +454,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		723A2E2822EDD27D008B761E /* Build configuration list for PBXProject "Animator" */ = {
+		723A2E2822EDD27D008B761E /* Build configuration list for PBXProject "AnimatorSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				723A2E4022EDD27D008B761E /* Debug */,
@@ -463,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		723A2E4222EDD27D008B761E /* Build configuration list for PBXNativeTarget "Animator" */ = {
+		723A2E4222EDD27D008B761E /* Build configuration list for PBXNativeTarget "AnimatorSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				723A2E4322EDD27D008B761E /* Debug */,
@@ -472,7 +472,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		723A2E4522EDD27D008B761E /* Build configuration list for PBXNativeTarget "AnimatorTests" */ = {
+		723A2E4522EDD27D008B761E /* Build configuration list for PBXNativeTarget "AnimatorSwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				723A2E4622EDD27D008B761E /* Debug */,
