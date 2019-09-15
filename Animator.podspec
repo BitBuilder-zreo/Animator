@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'BitBuilder-zreo' => '1115326768@qq.com' }
-  s.source           = { :git => 'git@github.com:BitBuilder-zreo/Animator.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/BitBuilder-zreo/Animator.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
 
