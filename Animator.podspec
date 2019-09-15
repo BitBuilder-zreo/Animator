@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Example/Classes/**/*'
+  s.source_files = 'Animator/Animator/**/*.swift'
   
   # s.resource_bundles = {
   #   'Example' => ['Example/Assets/*.png']
